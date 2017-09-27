@@ -1,0 +1,37 @@
+
+section.employee-list{
+  float: left;
+  width: 100%;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px #fff solid;
+}
+.employee-list h2{
+  margin: 0;
+  padding: 12px;
+  font-size: 18px;
+  color: #333;
+  background: #d7d7d7;
+  text-transform: capitalize;
+}
+.employee-list h2:hover{
+  cursor: pointer;
+  background: #d9d9d9;
+}
+.employee-list .content{
+  max-height: 0;
+  transition: max-height .3s ease ;
+  overflow: hidden;
+}
+.employee-list .content.show{
+  max-height: 100px;
+  transition: max-height 3s ease ;
+  padding: 20px;
+}
+.employee-list .content.show div{
+  margin-bottom: 10px;
+}
+.employee-list .content.show div:last-child{
+  margin-bottom: 0;
+}
+

@@ -1,0 +1,25 @@
+.popup-modal{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  background: #fff;
+  border: 1px #ccc solid;
+  box-shadow: 5px 5px 5px #999;
+}
+.popup-modal .popup-content .employee-list h2{
+  background: #333;
+  color: #fff;
+}
+.popup-modal .popup-controlPanel{
+  float: right;
+  padding: 5px;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+}

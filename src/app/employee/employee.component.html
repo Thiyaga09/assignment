@@ -1,0 +1,9 @@
+
+<section class="employee-list">
+  <h2 (click)="toggleContent()">{{employee.name}}</h2>
+  <div class="content {{isActive? 'show':''}}" (click)="openDialog()" [appDialog]>
+    <div>Joining Date: {{employee.created}}</div>
+    <div>Department: {{employee.orbital_period}}</div>
+    <div>terrain: {{employee.terrain}}</div>
+  </div>
+</section>
